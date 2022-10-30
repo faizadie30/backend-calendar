@@ -1,0 +1,23 @@
+{
+  "name": "backend-calendar",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "dotenv": "^16.0.3",
+    "express": "~4.16.1",
+    "fastest-validator": "^1.15.0",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.4",
+    "morgan": "~1.9.1",
+    "pg": "^8.8.0",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.25.3",
+    "sequelize-cli": "^6.5.2",
+    "uuid": "^9.0.0"
+  }
+}
