@@ -21,12 +21,12 @@ module.exports = (Sequelize, DataTypes) => {
       startDate: {
         field: 'start_date',
         type: DataTypes.DATE,
-        allowNull: false,
+        allowNull: true,
       },
       endDate: {
         field: 'end_date',
         type: DataTypes.DATE,
-        allowNull: false,
+        allowNull: true,
       },
       createdAt: {
         field: 'created_at',
